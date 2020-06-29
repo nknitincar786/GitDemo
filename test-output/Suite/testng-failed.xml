@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Academy.tests.TimeTrackPageTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- Academy.tests.TimeTrackPageTest -->
+      <class name="Academy.tests.LoginPageTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- Academy.tests.LoginPageTest -->
+      <class name="Academy.tests.FailTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="openApplication"/>
+          <include name="extentReportsIntialization"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- Academy.tests.FailTest -->
+      <class name="Academy.tests.LicenscePageTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- Academy.tests.LicenscePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
